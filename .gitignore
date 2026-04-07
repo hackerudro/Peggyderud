@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# Misc
+*.pdb
+*.cache
+*.tmp
+Thumbs.db
+.DS_Store
+UpgradeLog*.htm

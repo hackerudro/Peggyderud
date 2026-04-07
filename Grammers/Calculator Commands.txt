@@ -1,0 +1,18 @@
+Open Calculator
+one
+two
+three
+for
+five
+six
+seven
+eight
+nine
+zero
+dot
+plus
+minus
+multiply
+divide
+equal to
+Exit Calculator

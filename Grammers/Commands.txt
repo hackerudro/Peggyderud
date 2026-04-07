@@ -1,0 +1,8 @@
+open cmd
+exit cmd
+clear all
+show my local ip
+write ping
+space
+hyphen
+Show all the saved password

@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//f/Personal/Source Codes/My Projects/**)",
+      "Bash(mv \"PEGGY AI/My GirlFriend/My GirlFriend.csproj\" \"PEGGY AI/My GirlFriend/Peggyderud.csproj\")",
+      "Bash(mv \"PEGGY AI/My GirlFriend.sln\" \"PEGGY AI/Peggyderud.sln\")",
+      "Bash(mv \"PEGGY AI/My GirlFriend\" \"PEGGY AI/Peggyderud\")",
+      "Bash(mv \"PEGGY AI\" \"Peggyderud\")",
+      "Bash(cd /c)",
+      "Bash(cmd //c \"move \"\"F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI\"\" \"\"F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\Peggyderud\"\"\")",
+      "Bash(powershell -Command \"Rename-Item -LiteralPath ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI'' -NewName ''Peggyderud''\")",
+      "Bash(powershell -Command \"Get-ChildItem ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI\\\\.vs'' -Recurse -Force -ErrorAction SilentlyContinue | Select-Object FullName | Select-Object -First 30\")",
+      "Bash(powershell -Command \"Remove-Item -LiteralPath ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI\\\\.vs'' -Recurse -Force -ErrorAction Stop\")",
+      "Bash(powershell -Command \"Rename-Item -LiteralPath ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI'' -NewName ''Peggyderud''; Get-ChildItem ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\Peggyderud'' | Select-Object Name\")",
+      "Bash(powershell -Command \"Get-ChildItem ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI'' -Recurse -Force -ErrorAction SilentlyContinue | Where-Object { $_Name -match ''lock|\\\\.ide$|\\\\.suo$'' } | Select-Object FullName\")",
+      "Bash(powershell -Command \"Get-ChildItem ''F:\\\\Personal\\\\Source Codes\\\\My Projects\\\\PEGGY AI'' -Recurse -Force -ErrorAction SilentlyContinue -File | Where-Object { $_Name -match ''lock|\\\\.ide$|\\\\.suo$|\\\\.pdb$'' } | Select-Object FullName\")",
+      "Bash(powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\\\Users\\\\morsh\\\\rename_peggy.ps1\")"
+    ]
+  }
+}

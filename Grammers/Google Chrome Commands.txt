@@ -1,0 +1,27 @@
+go to face book
+Open Google Chrome
+Open Youtube
+Search on youtube
+Exit Chrome
+open new tab
+close current tab
+open incognito
+login to my account
+exit from face book
+go to page one
+go to page two
+go to page three
+go to page four
+go to page five
+next tab
+open the last closed tab
+open the first video
+full screen
+forward
+forward more
+backward
+backwardmore
+increase sound
+decrease sound
+increase sound more
+decrease sound more

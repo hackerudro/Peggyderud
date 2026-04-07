@@ -1,0 +1,7 @@
+open microsoft paint
+Open gimp
+New image
+open image one
+make this image black and white
+save this image
+Exit Gimp
